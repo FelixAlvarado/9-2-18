@@ -1,0 +1,11 @@
+Explain websockets 
+
+Represent a standard for bi-direcional realtime commuitcaiton between servers and clients. Represents TCP connection (gets ride of connect limitations)
+
+How would an application know that someone is online? 
+
+Through webockets, the site tracks heartbeat times of times of the user is active (system checks to see if a server is currently hosting the user)
+
+WHat happens when you send a message to someone who isn't online? 
+
+The message get put into an unread table. When the user logs on, host chekcs that table, puts it on the conversation table, and sends it to the user. 
