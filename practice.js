@@ -13,6 +13,7 @@ function sumLists(node1, node2){
     while(node1 || node2){
         number1.push(node1.value);
         number2.push(node2.value);
+        //ternary operator to prevent null.next error
         node1 = node1.next;
         node2 = node2.next;
     }
