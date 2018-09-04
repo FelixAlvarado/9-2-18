@@ -9,3 +9,10 @@ Through webockets, the site tracks heartbeat times of times of the user is activ
 WHat happens when you send a message to someone who isn't online? 
 
 The message get put into an unread table. When the user logs on, host chekcs that table, puts it on the conversation table, and sends it to the user. 
+
+
+What is the time complxity of inserting into a sorted singly-linked list? How can you do it in one pass only? 
+
+O(n)
+Traverse the list until you find a number that the insert node is less than. Inert the insertnode before the larger number.
+
