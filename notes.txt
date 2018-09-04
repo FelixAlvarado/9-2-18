@@ -16,3 +16,6 @@ What is the time complxity of inserting into a sorted singly-linked list? How ca
 O(n)
 Traverse the list until you find a number that the insert node is less than. Inert the insertnode before the larger number.
 
+WHat do you have to do to delete a node from a list? 
+
+Find the node and make the prev node's next the target nodes next. If it's a double liknked list, also make the target node's next prev, the prev node's next
